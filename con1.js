@@ -12,12 +12,6 @@ if (randomNumber == 0) {
     computerChoice = 'tails';
 }
 
-if (randomNumber == 1) {
-    computerChoice = 'heads';
-} else {
-    computerChoice = 'tails';
-}
-
 if (userChoice == computerChoice) {
     alert ("You guessed right! The coin flip landed on heads");
 } else {
@@ -32,8 +26,9 @@ let age = currentYear - birthYear;
 
 if (age > 21) {
     alert ("You are old enough to drink in the US");
-} else if (age = 21) {
+} else if (age === 21) {
     alert ("You are old enough to drink in the US...barely");
 } else if(age < 21) {
     alert ("Sorry, you are not old enough to drink in the US");
 }
+console.log(age)
